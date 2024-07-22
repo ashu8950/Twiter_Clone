@@ -1,0 +1,103 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(160, 160, 160, 0.371);
+}
+
+.Sign_in {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 500px;
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+}
+
+.logo1 {
+ 
+  left: 50%;
+  transform: translateX(-50\%);
+  width: 120px;
+  height: auto;
+}
+
+.homepage_topRight1 {
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.homepage_topRight__subtitle {
+  font-size: 1.5rem;
+  color: #323435;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccd6dd;
+  border-radius: 20px;
+}
+
+button {
+  width: 80%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #585555;
+}
+
+.homepage_topRight__policies {
+  font-size: 0.8rem;
+  color: #657786;
+  margin-top: 20px;
+}
+
+.homepage_topRight__policies a {
+  color: #19191a;
+  text-decoration: none;
+}
+
+.homepage_topRight__Buttons1 h3 {
+  font-size: 1rem;
+  color: #657786;
+  margin-bottom: 10px;
+}
+
+.primary__button {
+  background-color: transparent;
+  color: #2c2e2f;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary__button:hover {
+  text-decoration: underline;
+}
+
+.link {
+  border-radius: 2px;
+  color: #19191a;
+}

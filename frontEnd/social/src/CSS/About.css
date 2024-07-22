@@ -1,0 +1,111 @@
+.about_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .about_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about_logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px; 
+  }
+  
+  .about_txt {
+    font-size: 24px;
+  }
+  
+  .about_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 5%;
+  }
+  
+  .dropDown1,
+  .dropDown2,
+  .dropDown3 {
+    margin-right: 20px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  }
+  select:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #b5b7b9; 
+    display: block;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff7a;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+ 
+
+.about_mid {
+    display: flex;
+  }
+  
+  .about_mid .left,
+  .about_mid .right {
+    width: 50%; /* Each image takes up half of the container */
+    height: auto; /* Ensures aspect ratio is maintained */
+  }
+  
+  .about_mid .left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .about_mid .right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .video_Container{
+    max-width: 640px; /* Adjust according to your needs */
+    margin: 0 auto; /* Center the video horizontally */
+    background-color: rgb(0, 0, 0);
+
+}
+
+.video_Container video {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the video is displayed as a block element */
+}
+
+  
+  
+  button:hover {
+    background-color: #f3f6f9;
+    border: 2px solid brown;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

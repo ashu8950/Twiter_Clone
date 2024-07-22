@@ -1,0 +1,128 @@
+/* Reset default browser styles */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/* body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(160, 160, 160, 0.371);
+   
+}
+
+.Sign_up {
+    background-color: white; /* Twitter background color */
+    /* padding: 200px; */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.homepage_topRight1 {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    max-width: 100%; 
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.logo1 {
+    /* margin-bottom: 20px; */
+    width: 120px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    
+}
+
+.homepage_topRight__subtitle {
+    font-size: 1.5rem;
+    color: #323435; /* Twitter primary color */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(94, 62, 62);
+    border-radius: 20px;
+}
+
+button {
+    width: 80%; /* Adjust width */
+    padding: 12px;
+    background-color: black; /* Change to black */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #585555; /* Darker shade of black */
+}
+
+.homepage_topRight__policies {
+    font-size: 0.8rem;
+    color: #657786; /* Twitter text color */
+    margin-top: 20px;
+}
+
+.homepage_topRight__policies a {
+    color: #5b5bd6; /* Twitter primary color */
+    text-decoration: none;
+}
+
+
+
+.homepage_topRight__Buttons1 h3 {
+    font-size: 1rem;
+    color: #657786; /* Twitter text color */
+    margin-bottom: 10px;
+}
+
+.primary__button {
+    background-color: transparent;
+    color: #2c2e2f; /* Twitter primary color */
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary__button:hover {
+    text-decoration: underline;
+}
+
+.link{
+    border-radius: 2px;
+    color: #19191a;
+}

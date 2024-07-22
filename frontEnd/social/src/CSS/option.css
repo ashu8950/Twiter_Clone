@@ -1,0 +1,19 @@
+.option_mid {
+    background-color: #f5f8fa; /* Light blue-gray background similar to Twitter */
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between left and right */
+}
+
+.option_left {
+    background-color: #f5f8fa; /* Light blue-gray background similar to Twitter */
+    width: 35%;
+    box-shadow: 5px 5px 5px 5px rgb(58, 57, 57);
+}
+
+.option_right {
+    background-color: #f5f8fa; /* Light blue-gray background similar to Twitter */
+    width: calc(65% - 10px); /* Adjusted width to account for margin */
+    margin-left: 10px; /* Add slight space at the beginning */
+    overflow-y: auto;
+}

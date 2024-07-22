@@ -1,0 +1,12 @@
+.viewPostContainer {
+  max-width: 800px;
+  height: 100vh;
+  justify-content: end;
+  margin-left: 20px;
+  margin-top: 20%;
+}
+
+.viewPostText {
+  font-size: 25px;
+  margin-bottom: 20px;
+}

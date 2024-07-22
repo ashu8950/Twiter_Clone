@@ -1,0 +1,65 @@
+/* footer.css */
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .footer_container .head {
+    color: #333;
+  }
+  
+  .footer_container .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer_container .list li {
+    margin-bottom: 8px;
+  }
+  
+  .footer_container .list li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .footer_container .list li a:hover {
+    color: #000;
+  }
+  
+  .footer_container .copyright {
+    font-style: italic;
+    color: #888; /* Example color */
+  }
+  
+  .footer_container .cookies a,
+  .footer_container .terms_condition a {
+    color: blue; /* Example color */
+    text-decoration: underline; /* Example underline */
+  }
+  
+  .footer_container .cookies a:hover,
+  .footer_container .terms_condition a:hover {
+    color: #0056b3; /* Example hover color */
+  }
+  
+  .footer_container .language_dropdown select {
+    width: 150px; /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .footer_container .language_dropdown select:hover {
+    border-color: #888;
+  }
+  
+  .footer_container .language_dropdown select:focus {
+    border-color: #333;
+  }
+  

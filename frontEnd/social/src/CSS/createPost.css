@@ -1,0 +1,68 @@
+.create_container {
+  max-width: 300px;
+  margin: 15px;
+  padding: 0px;
+  height: 75%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30%;
+}
+
+.head {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #9f7373;
+  border-radius: 5px;
+}
+.formTextArea{
+  width: 90%;
+  padding: 0px;
+  position: flex;
+  display: flex;
+  justify-content: center;
+  margin-left: 9px;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid #9f7373;
+  border-radius: 15px;
+}
+
+.formButton {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid brown;
+  display: flex;
+  margin-bottom: 7px;
+  margin-left: 8px;
+  padding: 10px 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 50%;
+  color: black;
+}
+.formButton:hover{
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: #9f7373;
+  color: brown;
+}
+
+
+
+  
