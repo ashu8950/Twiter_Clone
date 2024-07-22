@@ -9,7 +9,6 @@ export default function Home() {
   }
   return (
     <div>
-     <h1>Home</h1>
      <HomePage></HomePage>
      <Link to ="/login">Login</Link><br></br>    
     </div>
